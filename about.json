@@ -1,6 +1,6 @@
 {
   "name": "Mobile OP avatars",
+  "component": true,
   "about_url": "https://meta.discourse.org/t/show-original-poster-avatars-on-mobile/171346",
-  "license_url": "https://github.com/discourse/discourse-mobile-op-avatar-component/blob/main/LICENSE",
-  "component": true
+  "license_url": "https://github.com/discourse/discourse-mobile-op-avatar-component/blob/main/LICENSE"
 }

@@ -1,0 +1,10 @@
+{
+  "name": "discourse-mobile-op-avatar-component",
+  "version": "1.0.0",
+  "repository": "https://github.com/discourse/discourse-mobile-op-avatar-component",
+  "author": "Discourse",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "eslint-config-discourse": "^3.2.0"
+  }
+}
