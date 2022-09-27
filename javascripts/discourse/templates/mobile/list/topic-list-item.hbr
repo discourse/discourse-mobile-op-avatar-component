@@ -4,7 +4,7 @@
     {{!-- updated to show OP avatar --}}
     <a href="{{topic.firstPostUrl}}"  data-user-card="{{topic.creator.username}}">{{avatar topic.creator imageSize="large"}}</a>
   </div>
-  <div class='right'>
+  <div class='right topic-list-content'>
     {{!--
       The `~` syntax strip spaces between the elements, making it produce
       `<a class=topic-post-badges>Some text</a><span class=topic-post-badges>`,
