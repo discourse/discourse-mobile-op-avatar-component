@@ -28,7 +28,7 @@
       {{~raw "list/topic-excerpt" topic=topic~}}
       {{~/if~}}
     </div>
-    <div class='pull-right'>
+    <div class='pull-right topic-list-num'>
       {{raw "list/post-count-or-badges" topic=topic postBadgesEnabled=showTopicPostBadges}}
     </div>
     <div class="topic-item-stats clearfix">
