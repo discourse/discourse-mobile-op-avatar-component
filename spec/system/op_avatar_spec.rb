@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe "Like column", type: :system do
+RSpec.describe "OP Avatar", type: :system do
   fab!(:theme) { upload_theme_component }
   fab!(:op) { Fabricate(:user) }
   fab!(:other_user) { Fabricate(:user) }
@@ -15,7 +15,7 @@ RSpec.describe "Like column", type: :system do
       end
   end
 
-  it "renders the likes column", mobile: true do
+  it "renders the OP avatar instead of the most recent poster", mobile: true do
     visit "/latest"
 
     expect(page).to have_css(".topic-list-data [data-user-card=#{op.username}]", count: 2)
