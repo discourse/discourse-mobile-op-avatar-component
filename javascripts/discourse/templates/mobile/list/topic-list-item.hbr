@@ -1,3 +1,4 @@
+{{!-- has-modern-replacement --}}
 <td class="topic-list-data">
   {{~raw-plugin-outlet name="topic-list-before-columns"}}
   <div class='pull-left topic-list-avatar'>
