@@ -2,8 +2,8 @@
 
 RSpec.describe "OP Avatar", type: :system do
   fab!(:theme) { upload_theme_component }
-  fab!(:op) { Fabricate(:user) }
-  fab!(:other_user) { Fabricate(:user) }
+  fab!(:op, :user)
+  fab!(:other_user, :user)
   fab!(:topics) do
     Fabricate
       .times(2, :topic, user: op)
