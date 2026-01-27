@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe "OP Avatar", type: :system do
+RSpec.describe "OP Avatar" do
   fab!(:theme) { upload_theme_component }
   fab!(:op, :user)
   fab!(:other_user, :user)
